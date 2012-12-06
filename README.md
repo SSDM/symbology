@@ -5,5 +5,4 @@ This repo is designed to centralise a symbology library for the Seafloor Survey 
 
 The aim is to make it easy to find and distribute the latest symbology across the industry.
 
-![V0.1](https://github.com/paulkennedy68/SSDM/blob/master/docs/Symbol_Chart_080811.png)
-
+![V0.1](https://github.com/paulkennedy68/SSDM/raw/master/docs/Symbol_Chart_080811.png "Version 0.1")
