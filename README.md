@@ -15,7 +15,7 @@ This repo is designed to centralise a symbology library for the Seafloor Survey 
 <td>1</td>
 <td></td>
 <td>Fixed Point</td>
-<td><img src='Fixed Point.png'</td>
+<td><img src='https://github.com/SSDM/Symbology/raw/master/Fixed Point.png'</td>
 </tr>
 <tr>
 <td>2</td>
