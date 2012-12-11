@@ -1,5 +1,9 @@
 Seafloor Survey Data Model - Symbology
 ====
+This repository provides reliable, easy and access to the most current version of the SSDM Symbology library.  The purpose of this symbology library is to provide a base set of commonly used symbols which permits interoperability of spatial data between various software packages which need to consume and render SSDM based data in a consistent manner.   It should not be assumed this library is all encompassing.  It is a minimum set of common symbology codes + a graphic cartographic representation of that code.
+
+The master graphics are managed and maintained as ESRI .style file, but the intention is to provide them for additional software products such as AutoCAD, Microstation and Starfix.
+
 <html>
 <body>
 <table border='1'>
