@@ -1,8 +1,16 @@
 Seafloor Survey Data Model - Symbology
 ====
-This repository provides reliable, easy and access to the most current version of the SSDM Symbology library.  The purpose of this symbology library is to provide a base set of commonly used symbols which permits interoperability of spatial data between various software packages which need to consume and render SSDM based data in a consistent manner.   It should not be assumed this library is all encompassing.  It is a minimum set of common symbology codes + a graphic cartographic representation of that code.
+The purpose of this symbology library is to provide a baseload of commonly used symbols which permits interoperability of spatial data between various software packages which need to consume and render SSDM based data in a consistent and reliable manner.   It should not be assumed this library is all encompassing.  It is a minimum set of common symbology codes and a corresponding graphical cartographic representation of that code.
+
+The library consists of Point, Line and Fill symbols, which can be used to accruately render an Seafloor Survye Data Model.
 
 The master graphics are managed and maintained as ESRI .style file, but the intention is to provide them for additional software products such as AutoCAD, Microstation and Starfix.
+
+This repository provides reliable, easy and open access to the most current version of the SSDM Symbology library.  
+
+<b>How it works...</b>
+Within a SSDM geodatabase, a featureclass has an attribute called "SYMBOLOGY_CODE".  This attribute calue is mapped to the ESRI .style's 'Name' at rendering time.  Therefore all features in the SSDM with 'SYMBOLOGY_CODE= OGP1101' would be rendered with the symbol of name 'OGP1101'.
+
 
 <html>
 <body>
